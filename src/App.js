@@ -1,23 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import UseEffect1 from './UseEffect1';
+import PostList from './PostList';
+import WeatherDashboard from './WeatherDashBoard';
+import React from 'react';
+
+
+import Header from './Header';
+import ThemeContext from './ThemeContext';
+import CounterOne from './CounterOne';
+import TodoApp from './TodoApp';
+ import JustForFun from './JustForFun';
+
+import Revision from './Revision';
+import DataFetching from './DataFetching';
+import DataFetchingTwo from './DataFetchingTwo';
+import Parent from './Parent';
+import Addition from './Addition';
+import UseMemo from './UseMemo';
+import UseRef from './UseRef';
+import UseRef2 from './UseRef2';
+import RandomPasswordGenerator from './RandomPasswordGenerator';
+import Background from './Background';
+import Todo from './Todo';
+import TodoProvider from './TodoProvider';
+import Calculator from './Calculator';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Calculator/>
     </div>
   );
 }

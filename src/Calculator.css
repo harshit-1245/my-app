@@ -1,0 +1,18 @@
+
+
+.buttons{
+   background-color: white;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+.addition{
+    width: 50px;
+    margin-top: 50px;
+}
+.addition:hover{
+ 
+  background-color: white;
+}
